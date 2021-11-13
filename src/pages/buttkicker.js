@@ -1,6 +1,7 @@
 import Layout from './components/layout'
 import Carditem from './components/carditem'
 import matter from 'gray-matter'
+import ReactMarkdown from 'react-markdown'
 import Link from 'next/link'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
