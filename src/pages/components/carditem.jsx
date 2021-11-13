@@ -14,7 +14,7 @@ const Carditem = (props) => {
               <div className="card-body">
                 <h5 className="card-title">{value.frontmatter.title}</h5>
                 <p className="card-text">{value.frontmatter.excerpt}</p>
-                {/* <Link href={`/${value.frontmatter.company}/${value.slug}`}><a className="stretched-link"></a></Link> */}
+                <Link href={`/${value.frontmatter.company}/${value.slug}`}><a className="stretched-link"></a></Link>
               </div>
             </div>
           </div>
