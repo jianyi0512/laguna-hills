@@ -87,8 +87,9 @@ const Products = () => {
             </div>
         </div> */}
       </article>
-
+      <Link href="/buttkicker"><a>test</a></Link>
     </Layout>
+    
   )
 }
 export default Products
