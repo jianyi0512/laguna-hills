@@ -17,8 +17,9 @@ const Buttkicker = (props) => {
           <img src="/img/buttkicker/buttkickerHeader.png" className="mt-5 pt-3 w-100" />
           <img src="/img/buttkicker/buttkicker4d.png" className="w-100 mt-3"/>
         </div>
+        <h2 className="mt-5">Tranceducer</h2>
         <Carditem data={hardware} />
-
+        <h2 className="mt-5">Accesory</h2>
         <Carditem data={accessory} />
         
       </article>
