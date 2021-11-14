@@ -1,5 +1,5 @@
-import Layout from './components/layout'
-import Phyer from "./components/phyer"
+import Layout from '../components/layout'
+import Phyer from "../components/phyer"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Index = () => {
