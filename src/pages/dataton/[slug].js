@@ -2,7 +2,7 @@ import matter from "gray-matter"
 import ReactMarkdown from 'react-markdown'
 import Layout from '../../components/layout'
 import Link from 'next/link'
-//import  SpecificTable from "../../components/specificTable"
+import  SpecificTable from "../../components/specificTable"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const ProductPage = (props) => {
@@ -46,13 +46,13 @@ const ProductPage = (props) => {
               <ReactMarkdown children={props.markdownBody} />
           </div>
 
-          {/* <div>
+          <div>
             {(props.frontmatter.table) ?
               <SpecificTable watchpax={props.frontmatter.productname} />
               :
               <></>
             }
-          </div> */}
+          </div>
 
         </article>
 
