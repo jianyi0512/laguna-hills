@@ -19,7 +19,7 @@ const Buttkicker = (props) => {
         </div>
         <Carditem data={hardware} />
 
-        {/* <Carditem data={accessory} /> */}
+        <Carditem data={accessory} />
         
       </article>
 
