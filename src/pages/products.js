@@ -87,7 +87,7 @@ const Products = () => {
             </div>
         </div> */}
       </article>
-      <Link href="/buttkicker"><a>test</a></Link>
+    <Link href="/buttkicker"><a>test Buttkicker</a></Link>
     </Layout>
     
   )
