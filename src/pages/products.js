@@ -67,7 +67,7 @@ const Products = () => {
             </div>
           </div>
         </div>
-        <Link href="/buttkicker"><a>test Buttkicker</a></Link>
+
         {/* <h3 className="mt-5">自社開発製品</h3>
 
         <hr />
