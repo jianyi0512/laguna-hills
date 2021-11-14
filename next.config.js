@@ -8,8 +8,8 @@ module.exports = {
     },
   }
 
-  module.exports = {
-    images: {
-      domains: ['localhost']
-    }
-  }
+//   module.exports = {
+//     images: {
+//       domains: ['localhost']
+//     }
+//   }
