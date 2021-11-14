@@ -1,5 +1,5 @@
-import Layout from './components/layout'
-import Carditem from './components/carditem'
+import Layout from '../components/layout'
+import Carditem from '../components/carditem'
 import Link from 'next/link'
 import matter from "gray-matter"
 import 'bootstrap/dist/css/bootstrap.min.css'
