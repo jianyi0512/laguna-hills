@@ -1,4 +1,5 @@
 import Layout from './components/layout'
+import Carditem from './components/carditem'
 import matter from 'gray-matter'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -20,9 +21,9 @@ const Buttkicker = (props) => {
           <img src="/img/buttkicker/buttkickerHeader.png" className="mt-5 pt-3 w-100" />
           <img src="/img/buttkicker/buttkicker4d.png" className="w-100 mt-3"/>
         </div>
-        {/* <Carditem data={hardware} />
+        <Carditem data={hardware} />
 
-        <Carditem data={accessory} /> */}
+        <Carditem data={accessory} />
         
       </article>
 
