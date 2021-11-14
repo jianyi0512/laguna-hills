@@ -9,10 +9,6 @@ const Buttkicker = (props) => {
   const hardware = props.bkItem.filter(item => item.frontmatter.category === 'hardware')
   const accessory = props.bkItem.filter(item => item.frontmatter.category === 'accessory')
 
-  console.log(hardware)
-  console.log(accessory)
-
-
   return (
     <Layout title={title}>
       

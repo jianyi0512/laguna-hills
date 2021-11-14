@@ -4,9 +4,9 @@ const Carditem = (props) => {
         <>
         {props.data.map((value, index) => 
         <div key={index}>
-            <div>{value.title}</div>
-            <div>{value.image}</div>
-            <div>{value.excerpt}</div>
+            <div>{value.frontmatter.title}</div>
+            <img src={value.frontmatter.image} />
+            <div>{value.frontmatter.excerpt}</div>
         </div>
         )}
         
