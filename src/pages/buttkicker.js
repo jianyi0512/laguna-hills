@@ -1,11 +1,6 @@
 import Layout from './components/layout'
 // import Carditem from './components/carditem'
 import matter from 'gray-matter'
-<<<<<<< HEAD
-=======
-import ReactMarkdown from 'react-markdown'
->>>>>>> a6947976b4867f1df979807a576709d4d1dc55b8
-import Link from 'next/link'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Buttkicker = (props) => {
@@ -13,11 +8,10 @@ const Buttkicker = (props) => {
 
   const hardware = props.bkItem.filter(item => item.frontmatter.category === 'hardware')
   const accessory = props.bkItem.filter(item => item.frontmatter.category === 'accessory')
-<<<<<<< HEAD
+
   console.log(hardware)
   console.log(accessory)
-=======
->>>>>>> a6947976b4867f1df979807a576709d4d1dc55b8
+
 
   return (
     <Layout title={title}>
@@ -27,16 +21,9 @@ const Buttkicker = (props) => {
           <img src="/img/buttkicker/buttkickerHeader.png" className="mt-5 pt-3 w-100" />
           <img src="/img/buttkicker/buttkicker4d.png" className="w-100 mt-3"/>
         </div>
-
-<<<<<<< HEAD
         {/* <Carditem data={hardware} />
 
         <Carditem data={accessory} /> */}
-=======
-        <Carditem data={hardware} />
-
-        <Carditem data={accessory} />
->>>>>>> a6947976b4867f1df979807a576709d4d1dc55b8
         
       </article>
 
