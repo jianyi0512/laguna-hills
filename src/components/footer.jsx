@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import comstyle from "../../styles/common.module.scss"
+import comstyle from "../styles/common.module.scss"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Footer = () => {
