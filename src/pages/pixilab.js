@@ -9,7 +9,7 @@ const pixilab = () => {
       
       <article className="mt-5 pt-3 container w-50">
         <div>
-          <img src="/img/pixilab/pixilabheader.png" className="mt-5 pt-3 w-100" />
+          <img src="/img/pixilab/pixilabHeader.png" className="mt-5 pt-3 w-100" />
         </div>
 
         <div className="row bg-dark gx-0">
