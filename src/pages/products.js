@@ -1,6 +1,5 @@
 import Layout from './components/layout'
 import Link from 'next/link'
-import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Products = () => {
@@ -16,8 +15,7 @@ const Products = () => {
           <div className="col">
             <div className="card h-100">
               <img src="/img/dataton/dataton.png" className="card-img-top" alt="dataton logo"/>
-              {/* <Image src="/img/dataton/dataton.png" className="card-img-top" alt="dataton logo" width="100%" height="auto" /> */}
-              <div className="card-body">
+                      <div className="card-body">
                 <h5 className="card-title">Dataton<span className="flag-icon flag-icon-se ms-2"></span></h5>
                 <p className="card-text">WATCHOUTは、マルチプロジェクションを行うソフトウェアです。<br/>世界的にも数々のイベントや商業施設で使用されています。<br/>ビデオ編集ソフトと変わらない操作で扱いやすいソフトウェアです。</p>
                 <Link href="/dataton"><a className="stretched-link"></a></Link>
@@ -69,7 +67,7 @@ const Products = () => {
             </div>
           </div>
         </div>
-
+        <Link href="/buttkicker"><a>test Buttkicker</a></Link>
         {/* <h3 className="mt-5">自社開発製品</h3>
 
         <hr />
@@ -87,7 +85,7 @@ const Products = () => {
             </div>
         </div> */}
       </article>
-    <Link href="/buttkicker"><a>test Buttkicker</a></Link>
+
     </Layout>
     
   )
