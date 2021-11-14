@@ -7,3 +7,9 @@ module.exports = {
         return config
     },
   }
+
+  module.exports = {
+    images: {
+      domains: ['localhost']
+    }
+  }
