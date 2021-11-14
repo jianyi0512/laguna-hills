@@ -1,5 +1,5 @@
 import Layout from './components/layout'
-import Carditem from './components/carditem'
+// import Carditem from './components/carditem'
 import matter from 'gray-matter'
 <<<<<<< HEAD
 =======
