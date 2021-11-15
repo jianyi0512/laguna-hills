@@ -16,7 +16,7 @@ const Products = () => {
           <div className="col">
             <div className="card h-100">
               {/* <img src="/img/dataton/dataton.png" className="card-img-top" alt="dataton logo"/> */}
-              <Image src="/img/dataton/dataton.png" className="card-img-top" alt="dataton logo" width={296} height={96} quality={90} />
+              <Image src="/img/dataton/dataton.png" className="card-img-top" alt="dataton logo" width={398} height={129} quality={90} />
               <div className="card-body">
                 <h5 className="card-title">Dataton<span className="flag-icon flag-icon-se ms-2"></span></h5>
                 <p className="card-text">WATCHOUTは、マルチプロジェクションを行うソフトウェアです。<br/>世界的にも数々のイベントや商業施設で使用されています。<br/>ビデオ編集ソフトと変わらない操作で扱いやすいソフトウェアです。</p>
@@ -27,7 +27,7 @@ const Products = () => {
 
           <div className="col">
             <div className="card h-100">
-              <img src="/img/pixilab/pixilab.png" className="card-img-top" alt="pixilab logo" />
+              <Image src="/img/pixilab/pixilab.png" className="card-img-top" alt="pixilab logo" width={398} height={129} quality={90} />
               <div className="card-body">
                 <h5 className="card-title">PIXILAB<span className="flag-icon flag-icon-se ms-2"></span></h5>
                 <p className="card-text">BLOCKSは、音声ガイド・デジタルサイネージ・タッチパネル…といった商業施設・美術館・博物館・イベントで必要とされる様々な要求を解決するソフトウェアです。<br/>音声ガイドは、ユーザ所有のスマートフォンで楽しむ事ができます。特別なアプリケーションのダウンロードは不要で、ChromeもしくはSafariのブラウザーソフトウェアで対応できます。</p>
@@ -38,7 +38,7 @@ const Products = () => {
 
           <div className="col">
             <div className="card h-100">
-              <img src="/img/plura/plura.png" className="card-img-top" alt="plura logo" />
+              <img src="/img/plura/plura.png" className="card-img-top" alt="plura logo" width={398} height={129} quality={90} />
               <div className="card-body">
                 <h5 className="card-title">Plura<span className="flag-icon flag-icon-us ms-2"></span></h5>
                 <p className="card-text">Plura（旧Alpermann+Velte）（ドイツ）は創設後35年以上に渡って放送局等のプロフェッショナルなマーケットに対してタイムコード関連製品、クロック・システム等を設計、製造、販売をしています。<br/>更に近年は、製品販売のみならず顧客が要求するスペックを踏まえたアプリケーションやソリューションを含めた活動によって顧客に対するサービスを強固にしています。</p>
@@ -49,7 +49,7 @@ const Products = () => {
 
           <div className="col">
             <div className="card h-100">
-              <img src="/img/auvitran/auvitran.png" className="card-img-top" alt="auvitran logo" />
+              <img src="/img/auvitran/auvitran.png" className="card-img-top" alt="auvitran logo" width={398} height={129} quality={90} />
               <div className="card-body">
                 <h5 className="card-title">Auvitran<span className="flag-icon flag-icon-fr ms-2"></span></h5>
                 <p className="card-text">AuviTranは、幅広いオーディオネットワーキング製品（オーディオツールボックス、ネットワークブリッジ、ブレイクアウトボックス、ソフトウェア）を提案しています。 <br/>AVDT-BOB製品は、アナログとAES3が出力され、DSPが統合されたコンパクトなDanteマイクブレイクアウトボックスです。</p>
@@ -60,7 +60,7 @@ const Products = () => {
 
           <div className="col">
             <div className="card h-100">
-              <img src="/img/buttkicker/buttkicker.png" className="card-img-top" alt="buttkicker logo" />
+              <img src="/img/buttkicker/buttkicker.png" className="card-img-top" alt="buttkicker logo" width={398} height={129} quality={90} />
               <div className="card-body">
                 <h5 className="card-title">Buttkicker<span className="flag-icon flag-icon-us ms-2"></span></h5>
                 <p className="card-text">ButtKicker®ブランドの製品は、<br/>映画館、シミュレーションライド、ダンスフロア、4Dシアター、プラネタリウム、サイエンスセンター、遊園地、といった世界中のアトラクションで<br/>体感型4Dエンターテイメントとして使用されています。</p>
