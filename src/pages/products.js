@@ -38,7 +38,7 @@ const Products = () => {
 
           <div className="col">
             <div className="card h-100">
-              <img src="/img/plura/plura.png" className="card-img-top" alt="plura logo" width={398} height={129} quality={90} />
+              <Image src="/img/plura/plura.png" className="card-img-top" alt="plura logo" width={398} height={129} quality={90} />
               <div className="card-body">
                 <h5 className="card-title">Plura<span className="flag-icon flag-icon-us ms-2"></span></h5>
                 <p className="card-text">Plura（旧Alpermann+Velte）（ドイツ）は創設後35年以上に渡って放送局等のプロフェッショナルなマーケットに対してタイムコード関連製品、クロック・システム等を設計、製造、販売をしています。<br/>更に近年は、製品販売のみならず顧客が要求するスペックを踏まえたアプリケーションやソリューションを含めた活動によって顧客に対するサービスを強固にしています。</p>
@@ -49,7 +49,7 @@ const Products = () => {
 
           <div className="col">
             <div className="card h-100">
-              <img src="/img/auvitran/auvitran.png" className="card-img-top" alt="auvitran logo" width={398} height={129} quality={90} />
+              <Image src="/img/auvitran/auvitran.png" className="card-img-top" alt="auvitran logo" width={398} height={129} quality={90} />
               <div className="card-body">
                 <h5 className="card-title">Auvitran<span className="flag-icon flag-icon-fr ms-2"></span></h5>
                 <p className="card-text">AuviTranは、幅広いオーディオネットワーキング製品（オーディオツールボックス、ネットワークブリッジ、ブレイクアウトボックス、ソフトウェア）を提案しています。 <br/>AVDT-BOB製品は、アナログとAES3が出力され、DSPが統合されたコンパクトなDanteマイクブレイクアウトボックスです。</p>
@@ -60,7 +60,7 @@ const Products = () => {
 
           <div className="col">
             <div className="card h-100">
-              <img src="/img/buttkicker/buttkicker.png" className="card-img-top" alt="buttkicker logo" width={398} height={129} quality={90} />
+              <Image src="/img/buttkicker/buttkicker.png" className="card-img-top" alt="buttkicker logo" width={398} height={129} quality={90} />
               <div className="card-body">
                 <h5 className="card-title">Buttkicker<span className="flag-icon flag-icon-us ms-2"></span></h5>
                 <p className="card-text">ButtKicker®ブランドの製品は、<br/>映画館、シミュレーションライド、ダンスフロア、4Dシアター、プラネタリウム、サイエンスセンター、遊園地、といった世界中のアトラクションで<br/>体感型4Dエンターテイメントとして使用されています。</p>
