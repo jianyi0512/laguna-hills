@@ -1,6 +1,7 @@
 import matter from "gray-matter"
 import ReactMarkdown from 'react-markdown'
 import Layout from '../../components/layout'
+import Seo from '../../components/seo'
 import Link from 'next/link'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -10,7 +11,7 @@ const ProductPage = (props) => {
 
     return(
       <Layout title={title}>
-        
+        <Seo title="Plura | Laguna Hills, Inc." description="放送機器　GPS時計" / > 
         <article className="mt-5 pt-3 container w-50">
           <div>
           <img src="/img/plura/pluraHeader.png" className="mt-5 pt-3 w-100 shadow" />
@@ -42,7 +43,7 @@ const ProductPage = (props) => {
           </div>
         <hr />
           <div className="mt-5">
-              <ReactMarkdown children={props.markdownBody} />
+              <ReactMarkdown children={props.markdownBody} linkTarget={"_blank"} />
           </div>
         </article>
 

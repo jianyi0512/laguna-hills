@@ -1,5 +1,6 @@
 import Layout from '../components/layout'
 import Phyer from "../components/phyer"
+import Seo from '../components/seo'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Index = () => {
@@ -7,6 +8,7 @@ const Index = () => {
 
   return (
     <Layout title={title}>
+      <Seo title="Laguna Hills, Inc." description="映像・音響システム　制御会社です。" />
       <article　className="mt-5 mb-5 pt-5">
         <Phyer />
         <div className="mt-5 pt-3 container w-50 text-center">

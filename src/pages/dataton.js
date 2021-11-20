@@ -1,5 +1,6 @@
 import Layout from '../components/layout'
 import Carditem from '../components/carditem'
+import Seo from '../components/seo'
 import Link from 'next/link'
 import matter from "gray-matter"
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -14,6 +15,7 @@ const Dataton = (props) => {
   
   return (
     <Layout title={title}>
+      <Seo title="Dataton | Laguna Hills, Inc." description="マルチスクリーン WATCHPAX" / >
       
       <article className="mt-5 pt-3 container w-50">
         <div>

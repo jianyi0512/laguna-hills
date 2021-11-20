@@ -5,7 +5,7 @@ const Aboutus = () => {
     let title = "Laguna Hills, Inc. Info"
   return (
     <Layout title={title}>
-      
+      <Seo title="会社案内 | Laguna Hills, Inc." description="株式会社ラグナヒルズの会社案内" />
       <article　className="mt-5 pt-3 container w-50">
         <h3 className="pt-3">会社概要</h3>
         <hr />
@@ -23,7 +23,7 @@ const Aboutus = () => {
           <dt className="col-2 text-end">代表取締役</dt>
           <dd className="col-10">日笠山　泉</dd>
           <dt className="col-2 text-end">社員数</dt>
-          <dd className="col-10">取締役２名,正社員2名</dd>
+          <dd className="col-10">取締役1名, 社員6名</dd>
           <dt className="col-2 text-end">事業内容</dt>
           <dd className="col-10">
             <ul className="list-unstyled">

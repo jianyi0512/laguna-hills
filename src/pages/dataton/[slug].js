@@ -1,6 +1,7 @@
 import matter from "gray-matter"
 import ReactMarkdown from 'react-markdown'
 import Layout from '../../components/layout'
+import Seo from '../../components/seo'
 import Link from 'next/link'
 import  SpecificTable from "../../components/specificTable"
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -11,7 +12,7 @@ const ProductPage = (props) => {
 
     return(
       <Layout title={title}>
-        
+        <Seo title="Dataton | Laguna Hills, Inc." description="マルチスクリーン WATCHPAX" / > 
         <article className="mt-5 pt-3 container w-50">
           <div>
             <img src="/img/dataton/datatonHeader.png" className="mt-5 pt-3 w-100" />
@@ -43,7 +44,7 @@ const ProductPage = (props) => {
 
           <hr />
           <div className="mt-5">
-              <ReactMarkdown children={props.markdownBody} />
+              <ReactMarkdown children={props.markdownBody} linkTarget={"_blank"} />
           </div>
 
           <div>

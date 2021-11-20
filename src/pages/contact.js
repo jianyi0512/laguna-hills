@@ -6,7 +6,7 @@ const Contact = () => {
     let title = "Laguna Hills, Inc. Contact"
   return (
     <Layout title={title}>
-      
+     <Seo title="問合せ | Laguna Hills, Inc." description="問合せ" /> 
       <article　className="mt-5 pt-3 container w-50">
         <h3 className="pt-3 text-center">問合せフォーム</h3>
         <p className="text-end">*営業目的のお問合せは、ご遠慮ください。</p>

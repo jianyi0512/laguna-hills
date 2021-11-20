@@ -1,6 +1,8 @@
 import Layout from '../components/layout'
 import Carditem from '../components/carditem'
+import Seo from '../components/seo'
 import matter from "gray-matter"
+import Image from 'next/image'
 import Link from 'next/link'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -13,11 +15,12 @@ const Auvitran = (props) => {
   
   return (
     <Layout title={title}>
+      <Seo title="Auvitran | Laguna Hills, Inc." description="AuviTran ネットワーク オーディオ" />
       
       <article className="mt-5 pt-3 container w-50">
         <div>
-          <img src="/img/auvitran/auvitranHeader.png" className="mt-5 pt-3 w-100" />
-          <img src="/img/auvitran/auvitran_banner.png" className="w-100 mt-3 bg-dark"/>
+          <img src="/img/auvitran/auvitranHeader.png" className="mt-5 pt-3 w-100"  /> {/* mt-5 pt-3 w-100 */}
+          <Image src="/img/auvitran/auvitran_banner.png" className="w-100 mt-3 " width={1249} height={249} quality={75}/>
         </div>
         <h2 className="mt-5">AVDT-BOB</h2>
         <Carditem data={bob} />

@@ -1,9 +1,9 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Carditem = (props) => {
 
-  console.log(props)
     return(
         <>
         <div className="row row-cols-1 row-cols-md-3 g-4 mt-2">

@@ -1,6 +1,6 @@
 const tableData = {
     "WATCHPAX40":{
-        itemNames:["", "WATCHPAX40"],
+        itemNames:[{title:"", productname:"WATCHPAX40"}],
         items:[
             {itemname:"partnumber", itemA:"3364"},
             {itemname:"WATCHOUTライセンスキー", itemA:"実装済み"},
@@ -19,22 +19,23 @@ const tableData = {
     },
 
     "WATCHPAX60":{
-        itemNames:["", "WATCHPAX60(4x4K)", "WATCHPAX60(4x4K Genlock)", "WATCHPAX60(4x4K+8xSDI)"],
+        itemNames:["", "WATCHPAX60(4x4K)", "WATCHPAX60(4x4K)", "WATCHPAX60(4x4K Genlock)", "WATCHPAX60(4x4K+8xSDI)"],
         items:[
-            {itemname:"モデル", itemA:"3368A", itemB:"3368B", itemC:"3368C"},
-            {itemname:"WATCHOUTライセンス", itemA:"本体に実装済", itemB:"本体に実装済", itemC:"本体に実装済"},
-            {itemname:"プレイバック", itemA:"4 x 4K本", itemB:"4 x 4K本", itemC:"12 (4 x 4K, 8 x SDI*)"},
-            {itemname:"映像出力", itemA:"4 x DisplayPort1.4", itemB:"4 x DisplayPort1.4", itemC:"4 x DisplayPort 1.4<br/>2x12G or 8x3G"},
-            {itemname:"キャプチャー", itemA:"1 x HDMI, 1x SDI", itemB:"1 x HDMI, 1x SDI", itemC:"1 x HDMI, 8 x SDI*"},
-            {itemname:"NDI-Video over IP Capture", itemA:"対応", itemB:"対応", itemC:"対応"},
-            {itemname:"音声出力", itemA:"4 x XLR", itemB:"4 x XLR", itemC:"4 x XLR"},
-            {itemname:"ストレージ", itemA:"1.9TB / 3.8TB / 7.6TB", itemB:"1.9TB / 3.8TB / 7.6TB", itemC:"1.9TB / 3.8TB / 7.6TB"},
-            {itemname:"USB", itemA:"2 x USB3.0", itemB:"2 x USB3.0", itemC:"2 x USB3.0"},
-            {itemname:"Ethernet", itemA:"2 x 10Gb", itemB:"2 x 10Gb", itemC:"2 x 10Gb"},
-            {itemname:"材質", itemA:"アルミニウム/黒", itemB:"アルミニウム/黒", itemC:"アルミニウム/黒"},
-            {itemname:"電源電圧", itemA:"AC100 ～ 240V", itemB:"AC100 ～ 240V", itemC:"AC100 ～ 240V"},       
-            {itemname:"消費電力", itemA:"約20W", itemB:"約20W", itemC:"約20W"},
-            {itemname:"動作温度", itemA:"40℃", itemB:"40℃", itemC:"40℃"},
+            {itemname:"モデル", itemS:"3368S",itemA:"3368A", itemB:"3368B", itemC:"3368C"},
+            {itemname:"WATCHOUTライセンス", itemS:"本体に実装済", itemA:"本体に実装済", itemB:"本体に実装済", itemC:"本体に実装済"},
+            {itemname:"プレイバック", itemS:"4 x 4K本", itemA:"4 x 4K本", itemB:"4 x 4K本", itemC:"12 (4 x 4K, 8 x SDI*)"},
+            {itemname:"映像出力", itemS:"4 x DisplayPort1.4", itemA:"4 x DisplayPort1.4", itemB:"4 x DisplayPort1.4", itemC:"4 x DisplayPort 1.4<br/>2x12G or 8x3G"},
+            {itemname:"キャプチャー", itemS:"なし", itemA:"1 x HDMI, 1x SDI", itemB:"1 x HDMI, 1x SDI", itemC:"1 x HDMI, 8 x SDI*"},
+            {itemname:"NDI-Video over IP Capture", itemS:"対応", itemA:"対応", itemB:"対応", itemC:"対応"},
+            {itemname:"音声出力", itemS:"USB", itemA:"4 x XLR", itemB:"4 x XLR", itemC:"4 x XLR"},
+            {itemname:"ストレージ", itemS:"1.0TB", itemA:"1.9TB / 3.8TB / 7.6TB", itemB:"1.9TB / 3.8TB / 7.6TB", itemC:"1.9TB / 3.8TB / 7.6TB"},
+            {itemname:"転送速度", itemS:"3500MB/s", itemA:"6000MB/s", itemB:"6000MB/s", itemC:"6000MB/s"},
+            {itemname:"USB", itemS:"2 x USB3.0", itemA:"2 x USB3.0", itemB:"2 x USB3.0", itemC:"2 x USB3.0"},
+            {itemname:"Ethernet", itemS:"2 x 10Gb", itemA:"2 x 10Gb", itemB:"2 x 10Gb", itemC:"2 x 10Gb"},
+            {itemname:"材質", itemS:"アルミニウム/黒", itemA:"アルミニウム/黒", itemB:"アルミニウム/黒", itemC:"アルミニウム/黒"},
+            {itemname:"電源電圧", itemS:"AC100 ～ 240V", itemA:"AC100 ～ 240V", itemB:"AC100 ～ 240V", itemC:"AC100 ～ 240V"},       
+            {itemname:"消費電力", itemS:"約20W", itemA:"約20W", itemB:"約20W", itemC:"約20W"},
+            {itemname:"動作温度", itemS:"40℃", itemA:"40℃", itemB:"40℃", itemC:"40℃"},
         ],
         annotation:[
             {comment:"* 双方向、出力または入力として使用可"},

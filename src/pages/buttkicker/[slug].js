@@ -1,7 +1,9 @@
 import matter from "gray-matter"
 import ReactMarkdown from 'react-markdown'
 import Layout from '../../components/layout'
+import Seo from '../../components/seo'
 import Link from 'next/link'
+import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const ProductPage = (props) => {
@@ -10,7 +12,7 @@ const ProductPage = (props) => {
 
     return(
       <Layout title={title}>
-        
+        <Seo title="Buttkicker | Laguna Hills, Inc." description="Buttkicker トランスデューサ　ユニット" />
         <article className="mt-5 pt-3 container w-50">
             <div>
                 <img src="/img/buttkicker/buttkickerHeader.png" className="mt-5 pt-3 w-100" />
@@ -33,7 +35,7 @@ const ProductPage = (props) => {
             </div>
              <hr />
             <div className="mt-5">
-                <ReactMarkdown children={props.markdownBody} />
+                <ReactMarkdown children={props.markdownBody} linkTarget={"_blank"} />
             </div>
         </article>
 

@@ -1,4 +1,5 @@
 import Layout from '../components/layout'
+import Seo from '../components/seo'
 import Blocks from "../styles/pixilab.module.scss"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -6,6 +7,7 @@ const pixilab = () => {
   let title = "laguna hills, inc. products pixilab"
   return (
     <Layout title={title}>
+      <Seo title="PixiLab | Laguna Hills, Inc." description="音声ガイド　システム" / >
       
       <article className="mt-5 pt-3 container w-50">
         <div>

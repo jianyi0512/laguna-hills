@@ -1,4 +1,5 @@
 import Layout from '../components/layout'
+import Seo from '../components/seo'
 import Link from 'next/link'
 import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -7,7 +8,7 @@ const Products = () => {
   let title = "Laguna Hills, Inc. Products"
   return (
     <Layout title={title}>
-      
+      <Seo title="輸入製品 | Laguna Hills, Inc." description="Dataton PixiLab Plura Auvitran Buttkicker" / > 
       <article　className="mt-5 pt-3 container w-50">
         <h3 className="pt-3">輸入製品</h3>
         <hr />

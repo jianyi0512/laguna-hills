@@ -1,5 +1,6 @@
 import Layout from '../components/layout'
 import Carditem from '../components/carditem'
+import Seo from '../components/seo'
 import matter from "gray-matter"
 import Link from 'next/link'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -15,6 +16,7 @@ const Plura = (props) => {
 
   return (
     <Layout titel={title}>
+      <Seo title="Plura | Laguna Hills, Inc." description="放送機器　GPS時計" / >
 
       <article className="mt-5 pt-3 container w-50">
         <div>

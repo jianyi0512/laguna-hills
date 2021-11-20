@@ -1,5 +1,6 @@
 import Layout from '../components/layout'
 import Carditem from '../components/carditem'
+import Seo from '../components/seo'
 import matter from 'gray-matter'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -11,6 +12,7 @@ const Buttkicker = (props) => {
 
   return (
     <Layout title={title}>
+      <Seo title="Buttkicker | Laguna Hills, Inc." description="Buttkicker トランスデューサ　ユニット" />
       
       <article className="mt-5 pt-3 container w-50">
         <div>
