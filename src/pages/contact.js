@@ -1,4 +1,5 @@
 import Layout from '../components/layout'
+import Seo from '../components/seo'
 import Link from 'next/link'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
