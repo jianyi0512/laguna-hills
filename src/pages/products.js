@@ -9,7 +9,7 @@ const Products = () => {
   return (
     <Layout title={title}>
       <Seo title="輸入製品 | Laguna Hills, Inc." description="Dataton PixiLab Plura Auvitran Buttkicker" / > 
-      <article　className="mt-5 pt-3 container w-50">
+      <article className="mt-5 pt-3 container w-50">
         <h3 className="pt-3">輸入製品</h3>
         <hr />
         <div className="row row-cols-1 row-cols-md-3 g-4 mt-2">

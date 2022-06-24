@@ -33,4 +33,4 @@ table: true
 * [User Manual](https://auvitran.com/downloads/manual/AVDT-BOB%20User%20manual.pdf)
 * [AxP-BOB-RACKKIT 19″ Rack kit](https://www.auvitran.com/downloads/manual/AVDT-BOB-RackKit.pdf)
 * [AVDT-BOB demo](https://www.auvitran.com/downloads/avdt-bob.V3)
-* [Control Software](https://www.auvitran.com/software)
+* [Control Software](https://www.auvitran.com/download-software/)

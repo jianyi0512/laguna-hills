@@ -19,4 +19,4 @@ excerpt: "BK-LFE ButtKicker LFE（低周波効果）トランスデューサー�
 * Piston Weight:	1.48 kg
 
 #### ダウンロード
-[ButtKicker LFE User Guide »](https://thebuttkicker.com/content/BK-LFE%20Manual.pdf)
+[ButtKicker LFE User Guide »](https://cdn.shopify.com/s/files/1/0549/6265/1384/files/BK-LFE_-_ButtKicker_LFE_Haptic_Transducer_-_Product_Manual.pdf?v=1635175406)

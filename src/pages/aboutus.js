@@ -7,7 +7,7 @@ const Aboutus = () => {
   return (
     <Layout title={title}>
       <Seo title="会社案内 | Laguna Hills, Inc." description="株式会社ラグナヒルズの会社案内" />
-      <article　className="mt-5 pt-3 container w-50">
+      <article className="mt-5 pt-3 container w-50">
         <h3 className="pt-3">会社概要</h3>
         <hr />
         <dl className="row lh-lg bg-light pt-4 pb-4">

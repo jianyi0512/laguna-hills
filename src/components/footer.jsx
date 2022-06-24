@@ -7,7 +7,8 @@ const Footer = () => {
 
     return(
         <>
-            <footer className="footer mt-5 py-5 container-fluid" className={comstyle.bgBlack} >
+            {/* <footer className="footer mt-5 py-5 container-fluid" className={comstyle.bgBlack} > */}
+            <footer className="footer mt-5 py-5 container-fluid bg-black" >
                
                 <div className="container w-50 ">
                     <div className="container w-25 d-block mx-auto" >

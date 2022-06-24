@@ -13,7 +13,7 @@ const Layout = (props) => {
                     crossorigin="anonymous" referrerpolicy="no-referrer" />
             </Head>
             <Header />
-            <>{props.children}</>
+                <>{props.children}</>
             <Footer />
         </>
     )

@@ -13,27 +13,29 @@ const SpecificTable = (props) => {
            <h3>仕様</h3>
            <table className="table container w-100">
                <thead className={datatonColor.datatonBg}> 
+               
                    <tr>
-                       {selectWpx.itemNames.map((value) =>
-                       <th className="text-end" key={value.id}>{value}</th>
+                       {selectWpx.itemNames.map((value, index) =>
+                       <th className="text-end" key={index}>{value}</th>
                        )} 
                    </tr>
+                   
                </thead>
                <tbody>
-                   {selectWpx.items.map((value) =>
-                   <tr>
-                       <th scope="row" key={value.id}>{value.itemname}</th>
-                       <td className="text-end" key={value.id}>{value.itemS}</td>
-                       <td className="text-end" key={value.id}>{value.itemA}</td>
-                       <td className="text-end" key={value.id}>{value.itemB}</td>
-                       <td className="text-end" key={value.id}>{value.itemC}</td>
+                   {selectWpx.items.map((value, index) =>
+                   <tr key={index*2}>
+                       <th scope="row" >{value.itemname}</th>
+                       <td className="text-end" >{value.itemS}</td>
+                       <td className="text-end" >{value.itemA}</td>
+                       <td className="text-end" >{value.itemB}</td>
+                       <td className="text-end" >{value.itemC}</td>
                    </tr>
                    )}        
                </tbody>      
            </table>
    
-           {selectWpx.annotation.map((value) =>
-           <p key={value.id}>{value.comment}</p>
+           {selectWpx.annotation.map((value, index) =>
+           <p key={index*3}>{value.comment}</p>
            )}   
             </div> 
         :
@@ -41,27 +43,27 @@ const SpecificTable = (props) => {
                          <h3>仕様</h3>
                          <table className="table container w-100">
                              <thead className={datatonColor.datatonBg}> 
-                             {selectWpx.itemNames.map((value) =>
-                                 <tr>
+                             {selectWpx.itemNames.map((value, index) =>
+                                 <tr key={index}> 
                                      
-                                     <th className="text-center" key={value.id}>{value.title}</th>
-                                     <th className="text-center" key={value.id}>{value.productname}</th>
+                                     <th className="text-center" >{value.title}</th>
+                                     <th className="text-center" >{value.productname}</th>
                                      
                                  </tr>
                              )}
                              </thead>
                              <tbody>
-                                 {selectWpx.items.map((value) =>
-                                 <tr>
-                                     <th scope="row" key={value.index}>{value.itemname}</th>
-                                     <td className="text-center" key={value.index}>{value.itemA}</td>
+                                 {selectWpx.items.map((value, index) =>
+                                 <tr key={index*2}>
+                                     <th scope="row" >{value.itemname}</th>
+                                     <td className="text-center" >{value.itemA}</td>
                                  </tr>
                                  )}        
                              </tbody>      
                          </table>
                
-                         {selectWpx.annotation.map((value) =>
-                         <p key={value.id}>{value.comment}</p>
+                         {selectWpx.annotation.map((value, index) =>
+                         <p key={index*3}>{value.comment}</p>
                          )}   
                      </div>
         

@@ -20,4 +20,4 @@ table: true
 * Piston Weight:	1 lb / 0.45 kg
 
 #### ダウンロード
-[ButtKicker Advance Owner's Manual »](https://thebuttkicker.com/content/BK4-Owner%27sManual.pdf)
+[ButtKicker Advance Owner's Manual »](https://cdn.shopify.com/s/files/1/0549/6265/1384/files/BK4-4_-_ButtKicker_Advance_Haptic_Transducer_-_Product_Manual.pdf?v=1635175406)

@@ -22,4 +22,4 @@ table: true
 * Piston Weight:	3.75 lbs / 1.48 kg
 
 #### ダウンロード
-[ButtKicker Concert User Guide »](https://thebuttkicker.com/content/BK-CT%20Manual.pdf)
+[ButtKicker Concert User Guide »](https://cdn.shopify.com/s/files/1/0549/6265/1384/files/BK-CT_-_ButtKicker_Concert_Haptic_Transducer_-_Product_Manual.pdf?v=1635175406)

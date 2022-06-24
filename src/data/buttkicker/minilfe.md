@@ -22,4 +22,4 @@ table: true
 * Piston Weight:	6 Oz / 0.17 kg
 
 #### ダウンロード
-[ButtKicker Mini LFE Instruction Guide »](https://thebuttkicker.com/content/BK-mini-LFE%20Manual.pdf)
+[ButtKicker Mini LFE Instruction Guide »](https://cdn.shopify.com/s/files/1/0549/6265/1384/files/BK-MINI-LFE_-_ButtKicker_Mini_LFE_Haptic_Transducer_-_Product_Manual.pdf?v=1635175406)
