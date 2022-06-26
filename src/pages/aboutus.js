@@ -84,6 +84,7 @@ const Aboutus = () => {
           <dd className="col-10">
             <ul className="list-unstyled">
               <li>株式会社映像センター / 株式会社ゴーズ / 株式会社シーマ株式会社 / 株式会社教映社 / ヒビノ株式会社 </li>
+              <li>株式会社光和 /                </li>
             </ul>
           </dd>
         </dl>

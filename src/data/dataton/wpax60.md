@@ -12,9 +12,8 @@ image2: "/img/dataton/WATCHPAX-60-800x800.webp"
 excerpt: "高い再生機能を実現するメディアサーバー　リダンダント機能を搭載"
 table: true
 ---
-### キャンペーン実施中
-* キャンペーン登録を行っていただくと、キャンペーン価格での販売が可能となります。  
-[キャンペーン登録](https://www.dataton.com/watchpax60-promo-campaign#WPX60upgradepromo)
+### まもなく販売終了です。
+
 ### Power to perform
 * ライブイベント等に適しています。
 * ３つのモデルから使用用途に適したモデルを選択できます。

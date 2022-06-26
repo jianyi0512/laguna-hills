@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const Header = () => {
     return(
         <header className="container-fluid bg-white sticky-top bg-white mb-5">
-            <div className="row justify-content-around">
+            <div className="row justify-content-around shadow-sm">
                 <div className="col-4">
                     <Link href="/">
                         <a className="navbar-brand">

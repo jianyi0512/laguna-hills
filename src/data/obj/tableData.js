@@ -1,12 +1,13 @@
 const tableData = {
-    "WATCHPAX40":{
-        itemNames:[{title:"", productname:"WATCHPAX40"}],
+    "WATCHPAX42":{
+        itemNames:[{title:"", productname:"WATCHPAX42"}],
         items:[
-            {itemname:"partnumber", itemA:"3364"},
+            {itemname:"partnumber", itemA:"3364B"},
             {itemname:"WATCHOUTライセンスキー", itemA:"実装済み"},
             {itemname:"１出力最大解像度", itemA:"4096x2160"},
             {itemname:"Video出力数", itemA:"Displayport x 4"},
             {itemname:"ストレージ", itemA:"SSD 1TB"},
+            {itemname:"USB", itemA:"2 x USB3.0"},
             {itemname:"オーディオ", itemA:"3.5mm stereo"},
             {itemname:"LAN", itemA:"1Gbps"},
             {itemname:"消費電力", itemA:"250W"},
