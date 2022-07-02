@@ -1,36 +1,43 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Header = () => {
     return(
-        <header className="container-fluid bg-white sticky-top bg-white mb-5">
-            <div className="row justify-content-around shadow-sm">
-                <div className="col-4">
-                    <Link href="/">
-                        <a className="navbar-brand">
+        // <header className="container-fluid bg-white sticky-top bg-white mb-5">
+    <>
+        <Container fluid variant="light" className="shadow">
+           
+                <Navbar collapseOnSelect expand="lg">
+                    <Container>
+                        <Col>
+                        <Navbar.Brand href="/">
                             <Image src="/LagunaHills_216x26.svg" className="d-flex align-items-center" width={300} height={90} quality={90} />
-                        </a>
-                    </Link>
-                </div>
-                
-                <nav className="navbar navbar-expand-lg col-4 d-flex align-items-center justify-content-end">
-                    
-                {/* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button> */}
-                {/* <div class="collapse navbar-collapse" id="navbarNavDropdown"> */}
-                    <ul className="nav">
-                        <li className="nav-item"><Link href="/products"><a className="nav-link text-body">輸入製品</a></Link></li>
-                        <li className="nav-item"><Link href="/develop"><a className="disabled nav-link text-body">自社製品・開発</a></Link></li>
-                        <li className="nav-item"><Link href="/aboutus"><a className="nav-link text-body">会社案内</a></Link></li>
-                        <li className="nav-item"><Link href="/contact"><a className="nav-link text-body">問合せ</a></Link></li>
-                    </ul>
-                    {/* </div> */}
-                </nav>
-            </div>
-        </header>
+                        </Navbar.Brand>
+                        </Col>
+                        <Col />
+                        <Col>
+                        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                        <Navbar.Collapse id="responsive-navbar-nav">
+                            <Nav>
+                                <Nav.Link href="/">HOME</Nav.Link>
+                                <Nav.Link href="/products">輸入製品</Nav.Link>
+                                <Nav.Link eventKey="disabled" disabled href="/develop">自社製品・開発</Nav.Link>
+                                <Nav.Link href="/aboutus">会社案内</Nav.Link>
+                                <Nav.Link href="/contact">問合せ</Nav.Link>
+                            </Nav>
+                        </Navbar.Collapse>
+                        </Col>
+                    </Container>
+                </Navbar >
+            
+        </Container>
+     </>
     )
 }
 
 export default Header
+
