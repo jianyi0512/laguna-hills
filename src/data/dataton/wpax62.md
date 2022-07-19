@@ -17,5 +17,5 @@ table: false
 * WATCHPAX62S,WATCHPAX62A,WATCHPAX62B,WATCHPAX62Cと4つの仕様です。
 
 #### ダウンロード
-* [WATCHPAX60カタログ ](https://cdn.dataton.com/Files-PDF-etc/product-sheets/3368B_WATCHPAX_62_cutsheet.pdf)
+* [WATCHPAX62カタログ ](https://cdn.dataton.com/Files-PDF-etc/product-sheets/3368B_WATCHPAX_62_cutsheet.pdf)
 

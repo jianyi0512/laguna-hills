@@ -21,5 +21,5 @@ table: true
 * 10GB Ethernet。
 
 #### ダウンロード
-* [WATCHPAX60カタログ ](https://cdn.dataton.com/Files-PDF-etc/product-sheets/3368_WATCHPAX_60_cutsheet.pdf)
-* [ユーザーガイド](https://cdn.dataton.com/Files-PDF-etc/userguides/Dataton_WATCHPAX_60_Users_Guide.pdf)
+* [WATCHPAX60カタログ ](https://cdn.dataton.com/Files-PDF-etc/product-sheets/3368_WATCHPAX_60_cutsheet_2021.pdf)
+* [ユーザーガイド](https://cdn.dataton.com/Files-PDF-etc/userguides/Dataton_WATCHPAX_60_Users_Guide_2021.pdf)
