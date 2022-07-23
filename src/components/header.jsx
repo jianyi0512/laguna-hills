@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link  from 'next/link'
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -18,11 +19,17 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                         <Nav>
-                            <Nav.Link href="/">HOME</Nav.Link>
+                            <Link href="/">HOME</Link>
+                            <Link href="/products">輸入製品</Link>
+                            <Link eventKey="disabled" disabled href="/develop">自社製品</Link>
+                            <Link href="/aboutus">会社案内</Link>
+                            <Link href="/contact">問合せ</Link>
+
+                            {/* <Nav.Link href="/">HOME</Nav.Link>
                             <Nav.Link href="/products">輸入製品</Nav.Link>
                             <Nav.Link eventKey="disabled" disabled href="/develop">自社製品</Nav.Link>
                             <Nav.Link href="/aboutus">会社案内</Nav.Link>
-                            <Nav.Link href="/contact">問合せ</Nav.Link>
+                            <Nav.Link href="/contact">問合せ</Nav.Link> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

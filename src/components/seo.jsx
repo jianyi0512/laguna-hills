@@ -4,9 +4,9 @@ import { Helmet } from "react-helmet"
 const Seo = ({ title, description }) => {
 
     const router = useRouter()
-    const baseUrl = "http://localhost:3000"  // "https://laguna-hills.vercal.app"
+    const baseUrl = "https://www.laguna-hills.co.jp"  // "https://laguna-hills.vercal.app"
     const currentUrl = baseUrl + router.pathname
-    const defaultImage = `${baseUrl}/images/social-card.png`
+    const defaultImage = `${baseUrl}/images/social-card.pngs
     return(
         <Helmet>
             <html lang="ja" />
