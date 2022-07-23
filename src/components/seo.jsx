@@ -6,7 +6,7 @@ const Seo = ({ title, description }) => {
     const router = useRouter()
     const baseUrl = "https://www.laguna-hills.co.jp"  // "https://laguna-hills.vercal.app"
     const currentUrl = baseUrl + router.pathname
-    const defaultImage = `${baseUrl}/images/social-card.pngs
+    const defaultImage = `${baseUrl}/images/social-card.png`
     return(
         <Helmet>
             <html lang="ja" />
