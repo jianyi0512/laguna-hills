@@ -13,10 +13,11 @@ table: false
 ---
 ### 重要
 * WATCHOUTを使用するには、このUSBライセンスキーが必要となります。
-
+<!-- 
 ### キャンペーン実施中
 * キャンペーン登録を行っていただくと、キャンペーン価格での販売が可能となります。  
-[キャンペーン登録](https://www.dataton.com/watchout-licenses-and-upgrades-promo#WOupgradepromo)
+[キャンペーン登録](https://www.dataton.com/watchout-licenses-and-upgrades-promo#WOupgradepromo) 
+-->
 
 ### MULTI-DISPLAY SOFTWARE FOR PROFESSIONALS
 * WATCHOUTは、ライブイベント、美術館、プラネタリウム、企業ショールーム等、訪れる方々に大きなインスピレーションを与える  
