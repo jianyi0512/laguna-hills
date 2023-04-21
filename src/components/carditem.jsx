@@ -11,6 +11,7 @@ const Carditem = (props) => {
           <div className="col" key={index}>
             <div className="card h-100">
               <img src={value.frontmatter.image} className="card-img-top border-bottom" alt={value.frontmatter.title} />
+              {/* <Image src={value.frontmatter.image} className="card-img-top border-bottom" alt={value.frontmatter.title} /> */}
               <div className="card-body">
                 <h5 className="card-title">{value.frontmatter.title}</h5>
                 <p className="card-text">{value.frontmatter.excerpt}</p>

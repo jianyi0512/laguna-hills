@@ -11,9 +11,9 @@ const Header = () => {
             <Navbar collapseOnSelect expand="lg">
                 <Container xs={11}>
                 <Container >
-                    <Navbar.Brand href="/">
+                    <Link href='/'><Navbar.Brand href="/">
                         <Image src="/LagunaHills_216x26.svg" className="d-flex align-items-center" width={300} height={90} quality={90} />
-                    </Navbar.Brand>
+                    </Navbar.Brand></Link>
                 </Container>
                 <Container>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -25,11 +25,11 @@ const Header = () => {
                             <Link href="/aboutus">会社案内</Link>
                             <Link href="/contact">問合せ</Link> */}
 
-                            <Nav.Link href="/">HOME</Nav.Link>
-                            <Nav.Link href="/products">輸入製品</Nav.Link>
+                            <Link href='/'><Nav.Link href="/">HOME</Nav.Link></Link>
+                            <Link href='/products'><Nav.Link href='products'>輸入製品</Nav.Link></Link>
                             <Nav.Link eventKey="disabled" disabled href="/develop">自社製品</Nav.Link>
-                            <Nav.Link href="/aboutus">会社案内</Nav.Link>
-                            <Nav.Link href="/contact">問合せ</Nav.Link>
+                            <Link href='/aboutus'><Nav.Link href="/aboutus">会社案内</Nav.Link></Link>
+                            <Link href='/contact'><Nav.Link href="/contact">問合せ</Nav.Link></Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
