@@ -2,7 +2,7 @@
 id: "21"
 company: "auvitran"
 category: "cards"
-title: "AxC-DX8I"
+title: "AxC-DX8I　生産終了"
 image: "/img/auvitran/auvitran_NetworkInterfaceCard/MEC-2011-0023_FAV-Rev2-Bouchon-AxC-DX8I-1.webp"
 excerpt: "AxC-DX8Iは、XLRコネクターのAES/EBU入力インターフェイスカードです。"
 ---

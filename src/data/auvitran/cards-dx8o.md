@@ -2,7 +2,7 @@
 id: "22"
 company: "auvitran"
 category: "cards"
-title: "AxC-DX8O"
+title: "AxC-DX8O　生産終了"
 image: "/img/auvitran/auvitran_NetworkInterfaceCard/MEC-2011-0024_REV2_FAV-Bouchon-AxC-DX8O.webp"
 excerpt: "AxC-DX8Oは、XLRコネクターのAES/EBU出力インターフェイスカードです。"
 ---
