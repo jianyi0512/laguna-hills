@@ -26,5 +26,4 @@ table: false
 ### ダウンロード
 * [WATCHOUT](https://www.dataton.com/downloads/watchout-legacy-downloads)
 * [カタログ](https://cdn.dataton.com/Files-PDF-etc/product-sheets/3150_WATCHOUT_cutsheet.pdf)
-* [test](https://www.dropbox.com/s/wbqkrrwzegnsm6u/Watchout6Manual.pdf?dl=0)
 * [ユーザーガイド](https://cdn.dataton.com/Files-PDF-etc/userguides/Dataton_WATCHOUT_Users_Guide_6.6.pdf)
