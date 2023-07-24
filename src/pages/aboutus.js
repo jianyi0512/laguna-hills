@@ -13,10 +13,14 @@ const Aboutus = () => {
         <dl className="row lh-lg bg-light pt-4 pb-4">
           <dt className="col-3 text-end">社名</dt>
           <dd className="col-9">株式会社ラグナヒルズ</dd>
-          <dt className="col-3 text-end">所在地</dt>
+          <dt className="col-3 text-end">本社所在地</dt>
           <dd className="col-9">〒102-0083<br/>東京都千代田区麹町3-5-2 BUREX麹町<br/><a href="https://goo.gl/maps/awdzS4USmRCMjZ4A9" target="_blank" className="text-body">Google Map</a></dd>
           <dt className="col-3 text-end">電話番号<br/>FAX</dt>
           <dd className="col-9">03(3238)6391<br/>03(3238)6399</dd>
+          <dt className="col-3 text-end">開発室所在地</dt>
+          <dd className="col-9">〒358-0053<br/>埼玉県入間市仏子357-1<br/><a href="https://goo.gl/maps/BzewiJTApqUVUy7r6" target="_blank" className="text-body">Google Map</a></dd>
+          <dt className="col-3 text-end">電話番号<br/>FAX</dt>
+          <dd className="col-9">042(936)8818<br/>042(936)8819</dd>
           <dt className="col-3 text-end">設立</dt>
           <dd className="col-9">1989年11月</dd>
           <dt className="col-3 text-end">資本金</dt>
