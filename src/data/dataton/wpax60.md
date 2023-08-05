@@ -12,7 +12,7 @@ image2: "/img/dataton/WATCHPAX-60-800x800.webp"
 excerpt: "高い再生機能を実現するメディアサーバー　リダンダント機能を搭載"
 table: true
 ---
-### まもなく販売終了です。
+### 生産終了です。
 
 ### Power to perform
 * ライブイベント等に適しています。
