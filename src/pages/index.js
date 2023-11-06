@@ -11,7 +11,7 @@ const Index = () => {
     <Layout title={title}>
       <Seo title="Laguna Hills, Inc." description="映像・音響システム　制御会社です。" />
       <article className="mt-5 mb-5 pt-5">
-        <Box display="flex" justifyContent="center">
+        <Box display="flex" justifyContent="center" >
           <Typography variant='h5'>InterBEE2023に出展いたします。ホール2 ブース:2305</Typography>
         </Box>
         <Phyer />
