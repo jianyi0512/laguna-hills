@@ -14,7 +14,7 @@ const Index = () => {
       <article className="mt-5 mb-5 pt-5">
         <Box display="flex" justifyContent="center" alignItems="center">
           <GradeIcon color='error'/>
-          <Typography variant='h5'>InterBEE2023に出展いたします。ホール2 ブース:2305</Typography>
+          {/* <Typography variant='h5'>InterBEE2023に出展いたします。ホール2 ブース:2305</Typography> */}
         </Box>
         <Phyer />
         <div className="mt-5 pt-3 container  text-center">
