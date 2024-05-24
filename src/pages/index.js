@@ -12,10 +12,10 @@ const Index = () => {
     <Layout title={title}>
       <Seo title="Laguna Hills, Inc." description="映像・音響システム　制御会社です。" />
       <article className="mt-5 mb-5 pt-5">
-        <Box display="flex" justifyContent="center" alignItems="center">
+        {/* <Box display="flex" justifyContent="center" alignItems="center">
           <GradeIcon color='error'/>
-          {/* <Typography variant='h5'>InterBEE2023に出展いたします。ホール2 ブース:2305</Typography> */}
-        </Box>
+           <Typography variant='h5'>InterBEE2023に出展いたします。ホール2 ブース:2305</Typography> 
+        </Box> */}
         <Phyer />
         <div className="mt-5 pt-3 container  text-center">
           <h3 >お知らせ</h3>
