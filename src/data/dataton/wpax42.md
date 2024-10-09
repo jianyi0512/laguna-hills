@@ -12,6 +12,8 @@ excerpt: "1Uハーフサイズのコンパクトなボディのメディアサ�
 image2: "/img/dataton/WATCHPAX4_back_cables_to_right_500x500.webp"
 table: true
 ---
+### 生産終了です。
+
 ### POWERFUL AND PORTABLE
 * WATCHPAX42は、小型で持ち運び可能です。
 * 4K(30p) 4OUTが可能。
